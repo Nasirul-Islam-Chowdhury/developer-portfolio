@@ -74,67 +74,55 @@ export const projects = [
   {
     id: 1,
     title: "PhoneSwapZone",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Grab the best deal on your old smartphone! Easy Payment System by Stripe",
     img: "https://i.ibb.co/C52k1RT/phoneswapzone-web-app-mobiles.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://phoneswapzone.web.app",
   },
   {
     id: 2,
     title: "Shine Men",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    img: "./shine-men.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://men-s-skin-care.web.app",
   },
   {
     id: 3,
-    title: "Voyage Companion",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Yoom",
+    des: "",
+    img: "/p2.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://zoom-clone-neon.vercel.app/",
   },
   {
     id: 4,
-    title: "Healthcare",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Ai Saas Landing Page",
+    des: "Sales Associate KoWorkers are your digital teammates, enhancing your business operation with-round-the-clock support and efficiency",
+    img: "/saas.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://koworker-landing.vercel.app/",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nasir's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
+      "Nasirul is an exceptional developer. He delivered what I wanted and always does it on time. He has great work ethics and professionalism. He helped me with developing both backend and frontend with next js and node js for a social media platform with advanced database design and clean code. The work was done in a very short amount of time and exceeded all my expectations with pixel perfect design! I am impressed with the quality of the work! Everything was done exactly as I wanted in every small detail. I would certainly recommend him for any web development needs. Thank you Nasirul!",
+    name: "Foujia Jamal",
+    title: "Fiverr Client",
+  },
+  {
+    quote:
+      "I'm happy to report that, despite my initial nervousness, I successfully placed my first Fiverr order with Nasirul. He was very understanding of my design and specifications, and he took the time to answer all of my queries. Nasirul used Node.js and Next.js to create an incredible, fully responsive CRM Admin Panel that flawlessly manages sales pipelines, customer data, and interactions. He fulfilled all of my requests and attended to all of my demands. I’m quite pleased with the outcome and look forward to collaborating with him on future projects. Highly recommended! Thanks Nasirul ",
+    name: "Nick_Moutafis",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nasir's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nasir's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nasir's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Nasir's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "He is Very hard working and timely. you are a very good team player with outstanding logical thinking. I am impressed with the quality of the work! Everything was done exactly as I wanted in every small detail. I would certainly recommend him for any web development needs. I’m quite pleased with the outcome and look forward to collaborating with him on future projects",
+    name: "Nahid",
+    title: "",
   },
 ];
 
@@ -199,13 +187,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Nasirul-Islam-Chowdhury",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/Nasir143",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/nasir252/",
   },
 ];
