@@ -82,7 +82,7 @@ export const projects = [
   {
     id: 2,
     title: "Shine Men",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "skin Care for Men, we've got you covered. Men's skincare service refers to specialized treatments and services tailored specifically to address the skincare needs and concerns of men.",
     img: "./shine-men.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://men-s-skin-care.web.app",
@@ -90,7 +90,7 @@ export const projects = [
   {
     id: 3,
     title: "Yoom",
-    des: "",
+    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://zoom-clone-neon.vercel.app/",
