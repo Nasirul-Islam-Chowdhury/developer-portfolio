@@ -177,7 +177,7 @@ export const workExperience = [
   {
     id: 3,
     title: "Freelance Web Dev Project",
-    desc: "Worker with many international clients on frontend and backend with mern technologies",
+    desc: "Worked with many international clients on frontend and backend with mern technologies",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
