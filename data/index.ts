@@ -170,14 +170,14 @@ export const workExperience = [
   {
     id: 2,
     title: "Full Stack Engineer (KoWorkerAi)",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Developed Full Stack web app for a video ai saas with next js and node js",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance Web Dev Project",
+    desc: "Worker with many international clients on frontend and backend with mern technologies",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
