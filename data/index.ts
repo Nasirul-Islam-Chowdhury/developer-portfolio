@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Healthcare Application",
+    title: "Currently Mastering Docker and AWS",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,6 +72,14 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 0,
+    title: "Ziarah Travel Ai",
+    des: "Ziarah is an AI-powered Application transforming how you experience travel. Our platform offers a seamless solution for booking a wide range of travel services, including flights, hotels, activities, and customized travel packages. With a user-friendly interface and advanced AI capabilities, Ziarah provides personalized recommendations, ensuring every journey aligns with your preferences",
+    img: "https://i.ibb.co.com/h1XQhdCR/Screenshot-2025-08-21-at-9-39-22-PM.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://ziarah.ai",
+  },
+  {
     id: 1,
     title: "PhoneSwapZone",
     des: "Grab the best deal on your old smartphone! Easy Payment System by Stripe",
@@ -86,14 +94,6 @@ export const projects = [
     img: "./shine-men.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://men-s-skin-care.web.app",
-  },
-  {
-    id: 3,
-    title: "Yoom",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://zoom-clone-neon.vercel.app/",
   },
   {
     id: 4,
@@ -169,17 +169,24 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Full Stack Engineer (KoWorkerAi)",
+    title: "Full Stack Engineer Intern (KoWorkerAi)",
     desc: "Developed Full Stack web app for a video ai saas with next js and node js",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance Web Dev Project",
-    desc: "Worked with many international clients on frontend and backend with mern technologies",
+    title: "Full Stack Engineer (Ziarah)",
+    desc: "Worked on hotel service for seemless hotel booking with super easy user experience",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Frontend Engineer (Ops0)",
+    desc: "Worked on hotel service for seemless hotel booking with super easy user experience",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp1.svg",
   },
 ];
 

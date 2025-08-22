@@ -8,10 +8,14 @@ import Link from "next/link";
 
 const RecentProjects = () => {
   return (
-    <div className="md:py-20 py-5">
+    <div id="projects" className="md:py-20 py-5">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
+        <p className="text-center text-sm mt-3">
+          {" "}
+          Check github to see variety of projects done by me
+        </p>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 lg:gap-16 gap-5 mt-10">
         {projects.map((item) => (
@@ -19,11 +23,7 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-            
-              title={item?.title?.slice(0,20)}
-              href={item.link}
-            >
+            <PinContainer title={item?.title?.slice(0, 20)} href={item.link}>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -68,7 +68,11 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <Link target="_blank" href={item.link} className="flex lg:text-xl md:text-xs text-sm text-purple">
+                  <Link
+                    target="_blank"
+                    href={item.link}
+                    className="flex lg:text-xl md:text-xs text-sm text-purple"
+                  >
                     Check Live Site
                   </Link>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
