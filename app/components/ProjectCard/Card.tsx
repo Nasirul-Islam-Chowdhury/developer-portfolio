@@ -60,7 +60,6 @@ export const Card = ({
         <Image
           width={400}
           height={400}
-          objectFit="cover"
           className="h-full w-full bg-gray-200"
           src={src}
           alt={alt}

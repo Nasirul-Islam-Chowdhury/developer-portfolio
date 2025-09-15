@@ -1,5 +1,5 @@
 interface Props extends React.SVGProps<SVGSVGElement> {
-  name: string
+  name: string;
 }
 
 export const Icon: React.FC<Props> = ({ name, ...rest }) => {
@@ -7,5 +7,5 @@ export const Icon: React.FC<Props> = ({ name, ...rest }) => {
     <svg {...rest}>
       <use xlinkHref={`/custom-icons.svg#${name}`} />
     </svg>
-  )
-}
+  );
+};

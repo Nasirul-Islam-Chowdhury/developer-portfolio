@@ -1,4 +1,4 @@
-export const DOMAIN_URL = "https://www.austinserb.com";
+export const DOMAIN_URL = "https://www.nasirchy.com";
 
 export const SITE_CONFIG = {
   title: "Md Nasirul Islam Chowdhury",
@@ -9,16 +9,14 @@ export const SITE_CONFIG = {
   siteName: "Md Nasirul Islam Chowdhury",
   keywords: [
     "Md Nasirul Islam Chowdhury",
-    "Serbyte",
     "React Zero-UI",
     "Next.js",
     "React",
     "TypeScript",
     "Full-Stack Engineer",
-    "Seattle",
   ],
-  ogImage: "/assets/bg-home-poster-optimized.webp",
-  logo: "/serbyte-logo.png",
+  ogImage: "/profile.png",
+  logo: "/logo.png",
 } as const;
 
 export const SITE_NAP = {
@@ -30,13 +28,13 @@ export const SITE_NAP = {
   phone: "+8801644113296",
   formattedPhone: "+880 01644113296",
   addressLink:
-    "https://www.google.com/maps/search/?api=1&query=serbyte+development",
+    "https://www.google.com/maps/search/?api=1&query=Md+Nasirul+Islam+Chowdhury",
   street: "12601 NE 124th ST",
-  city: "Kirkland",
-  state: "WA",
-  zipCode: "98034",
+  city: "Sylhet",
+  state: "Sylhet",
+  zipCode: "3103",
   openingHours: [{ days: "Mon - Sat", hours: "8am - 6pm" }] as const,
-  googleReviewLink: "https://g.page/r/CXHVs1ony_76EAI/review",
+  // googleReviewLink: "https://g.page/r/CXHVs1ony_76EAI/review",
   profiles: {
     facebook: "https://www.facebook.com/nasir.web.dev",
     linkedIn: "https://www.linkedin.com/in/nasir252/",

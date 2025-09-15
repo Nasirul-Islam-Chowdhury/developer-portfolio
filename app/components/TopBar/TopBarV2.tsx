@@ -1,14 +1,14 @@
-import { Icon } from "../Icon"
-import { Link } from "../../utils/Link"
-import { MobileMenuButton } from "./MobileMenuButton"
-import { MobileMenu } from "./MobileMenu"
-import { SITE_SLUGS } from "@/config/siteConfig"
-import Image from "next/image"
+import { Icon } from "../Icon";
+import { Link } from "../../utils/Link";
+import { MobileMenuButton } from "./MobileMenuButton";
+import { MobileMenu } from "./MobileMenu";
+import { SITE_SLUGS } from "@/config/siteConfig";
+import Image from "next/image";
 
 const navItems = [
   { name: "Projects", href: SITE_SLUGS.projects },
   { name: "About", href: SITE_SLUGS.about },
-]
+];
 
 export const TopBarV2: React.FC = () => {
   return (
@@ -19,8 +19,17 @@ export const TopBarV2: React.FC = () => {
           {/* Top Row (always visible) */}
           <div className="flex items-center gap-4 px-4 py-3 md:gap-8 md:py-2.5">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 font-medium text-nowrap">
-              <Image src={"/logo.png"} alt="nasir logo" height={24} width={24} className="rounded shadow-md" />
+            <Link
+              href="/"
+              className="flex items-center gap-2 font-medium text-nowrap"
+            >
+              <Image
+                src={"/logo.png"}
+                alt="nasir logo"
+                height={24}
+                width={24}
+                className="rounded shadow-md"
+              />
               Md Nasirul Islam Chowdhury
             </Link>
 
@@ -52,5 +61,5 @@ export const TopBarV2: React.FC = () => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};

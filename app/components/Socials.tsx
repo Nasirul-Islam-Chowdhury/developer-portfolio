@@ -1,8 +1,8 @@
-import Link from "next/link"
-import { Icon } from "./Icon"
-import clsx from "clsx"
-import type { Variants } from "motion"
-import { MotionDiv } from "../utils/lazy-ui"
+import Link from "next/link";
+import { Icon } from "./Icon";
+import clsx from "clsx";
+import type { Variants } from "motion";
+import { MotionDiv } from "../utils/lazy-ui";
 const container: Variants = {
   hidden: {
     x: -12,
@@ -16,7 +16,7 @@ const container: Variants = {
       duration: 0.2,
     },
   },
-}
+};
 
 const linkLogo: Variants = {
   hidden: {
@@ -33,12 +33,12 @@ const linkLogo: Variants = {
       ease: "easeOut",
     },
   },
-}
+};
 
 export const Socials: React.FC<{
-  socialLinks: { href: string; icon: string }[]
-  className?: string
-  iconClassName?: string
+  socialLinks: { href: string; icon: string }[];
+  className?: string;
+  iconClassName?: string;
 }> = ({ socialLinks, className, iconClassName }) => {
   return (
     <MotionDiv
@@ -58,10 +58,15 @@ export const Socials: React.FC<{
             aria-label={link.icon}
             title={link.icon}
           >
-            <Icon name={link.icon} height={15} width={15} className="text-black" />
+            <Icon
+              name={link.icon}
+              height={15}
+              width={15}
+              className="text-black"
+            />
           </Link>
         </MotionDiv>
       ))}
     </MotionDiv>
-  )
-}
+  );
+};

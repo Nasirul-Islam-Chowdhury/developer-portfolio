@@ -24,13 +24,6 @@ const projectsData: ProjectItem[] = [
     isExternal: true,
   },
   {
-    name: "Bespoke Tint & PPF",
-    url: SITE_SLUGS.projectLinks.bespoke,
-    date: "2025-03-11",
-    description: "Automotive Styling Website",
-    isExternal: false,
-  },
-  {
     name: "Vets Choice Insurance",
     url: externalLinks.shineMen,
     date: "2025-05-20",
@@ -43,13 +36,6 @@ const projectsData: ProjectItem[] = [
     date: "2024-06-15",
     description: "SVG Build Tool",
     isExternal: true,
-  },
-  {
-    name: "Automedics",
-    url: SITE_SLUGS.projectLinks.automedics,
-    date: "2024-12-02",
-    description: "Automotive Repair Website",
-    isExternal: false,
   },
   {
     name: "Iron & Oak",

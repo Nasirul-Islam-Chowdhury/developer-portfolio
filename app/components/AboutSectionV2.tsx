@@ -52,21 +52,16 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
             className="[flex:1.5_0_0px] space-y-8 text-slate-500"
           >
             <p>
+
+
               <strong className="font-semibold text-slate-900">
-                I build production systems and invent tools
+                I build
+                reliable, scalable production systems
               </strong>{" "}
-              when the platform gets in the way. I created
-              <a
-                href="https://github.com/react-zero-ui"
-                target="_blank"
-                rel="noopener"
-              >
-                {" "}
-                React Zero UI
-              </a>
-              . A ~350B micro-library that updates UI by flipping data-*
-              attributes, eliminating React re-renders for UI state. This site
-              runs on it.
+
+
+
+              and craft custom solutions when off-the-shelf tools fall short. My focus is on performance, clean architecture, and shipping products that last in the real world.
             </p>
 
             <p>
@@ -74,7 +69,7 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
                 I ship v1s in weeks and iterate in days
               </strong>
               . Leveraging tools server-first React, typed APIs, background
-              jobs, CI/CD, and observability. Small PRs, rapid feedback, no
+              jobs and observability. Small PRs, rapid feedback, no
               ceremony.
             </p>
             <p>
