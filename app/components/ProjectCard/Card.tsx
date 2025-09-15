@@ -60,7 +60,7 @@ export const Card = ({
         <Image
           width={400}
           height={400}
-          className="h-full w-full bg-gray-200"
+          className="h-full w-full bg-gray-200 object-fit "
           src={src}
           alt={alt}
           priority

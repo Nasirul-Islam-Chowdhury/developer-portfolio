@@ -106,18 +106,6 @@ export function ProjectsGrid({ className }: { className?: string }) {
     >
       <div className="relative z-4 grid grid-cols-1 grid-rows-1 gap-4 md:grid-cols-2 md:grid-rows-2">
         <AnimatedCard
-          key="travelAi"
-          src={travelAi}
-          alt={"Ziarah Travel Ai Preview"}
-          offset={offsets["travelAi"]}
-          gridId="travelAi"
-          color="#DA961A"
-          type="Ziarah Travel AI"
-          progress={progress}
-          href={externalLinks.travelAI}
-          dataText="View Live Site"
-        />
-        <AnimatedCard
           key={"PhoneSwapZone"}
           src={phoneSwapZone}
           alt={"PhoneSwapZone - Preview"}
@@ -130,17 +118,19 @@ export function ProjectsGrid({ className }: { className?: string }) {
           dataText="View Live Site"
         />
         <AnimatedCard
-          key="shineMen"
-          src={shineMen}
-          alt={"Shine Men Preview"}
-          offset={offsets["shineMen"]}
-          gridId="shineMen"
-          color="#024EFC"
-          type="Men's Skin Care Website"
+          key="travelAi"
+          src={travelAi}
+          alt={"Ziarah Travel Ai Preview"}
+          offset={offsets["travelAi"]}
+          gridId="travelAi"
+          color="#DA961A"
+          type="Ziarah Travel AI"
           progress={progress}
-          href={externalLinks.shineMen}
+          href={externalLinks.travelAI}
           dataText="View Live Site"
         />
+
+
 
         <AnimatedCard
           key={"landingPage"}
@@ -153,6 +143,20 @@ export function ProjectsGrid({ className }: { className?: string }) {
           progress={progress}
           dataText="View Live Site"
           href={externalLinks.saasUi}
+        />
+
+
+        <AnimatedCard
+          key="shineMen"
+          src={shineMen}
+          alt={"Shine Men Preview"}
+          offset={offsets["shineMen"]}
+          gridId="shineMen"
+          color="#024EFC"
+          type="Men's Skin Care Website"
+          progress={progress}
+          href={externalLinks.shineMen}
+          dataText="View Live Site"
         />
       </div>
     </section>

@@ -80,18 +80,18 @@ export const ProjectsStatic: React.FC = () => {
             const ProjectWrapper = project.isExternal ? "a" : Link;
             const wrapperProps = project.isExternal
               ? {
-                  href: project.href,
-                  target: "_blank",
-                  rel: "noopener",
-                  "data-text": project.dataText,
-                  "aria-label": project.ariaLabel,
-                }
+                href: project.href,
+                target: "_blank",
+                rel: "noopener",
+                "data-text": project.dataText,
+                "aria-label": project.ariaLabel,
+              }
               : {
-                  href: project.href,
-                  "data-text": project.dataText,
-                  "aria-label": project.ariaLabel,
-                  prefetch: true,
-                };
+                href: project.href,
+                "data-text": project.dataText,
+                "aria-label": project.ariaLabel,
+                prefetch: true,
+              };
 
             return (
               <ProjectWrapper key={project.id} {...wrapperProps}>
