@@ -105,18 +105,7 @@ export function ProjectsGrid({ className }: { className?: string }) {
       ref={ref}
     >
       <div className="relative z-4 grid grid-cols-1 grid-rows-1 gap-4 md:grid-cols-2 md:grid-rows-2">
-        <AnimatedCard
-          key={"PhoneSwapZone"}
-          src={phoneSwapZone}
-          alt={"PhoneSwapZone - Preview"}
-          offset={offsets["phoneSwapZone"]}
-          gridId="phoneSwapZone"
-          color="#3B06D1"
-          type="Phone Resale Platform"
-          progress={progress}
-          href={externalLinks.phoneSwapZone}
-          dataText="View Live Site"
-        />
+
         <AnimatedCard
           key="travelAi"
           src={travelAi}
@@ -132,18 +121,7 @@ export function ProjectsGrid({ className }: { className?: string }) {
 
 
 
-        <AnimatedCard
-          key={"landingPage"}
-          src={landingPage}
-          alt={"Landing-Page Preview"}
-          offset={offsets["iron-and-oak"]}
-          gridId="iron-and-oak"
-          color="#13739C"
-          type="Landing Page"
-          progress={progress}
-          dataText="View Live Site"
-          href={externalLinks.saasUi}
-        />
+
 
 
         <AnimatedCard
@@ -156,6 +134,30 @@ export function ProjectsGrid({ className }: { className?: string }) {
           type="Men's Skin Care Website"
           progress={progress}
           href={externalLinks.shineMen}
+          dataText="View Live Site"
+        />
+        <AnimatedCard
+          key={"landingPage"}
+          src={landingPage}
+          alt={"Landing-Page Preview"}
+          offset={offsets["iron-and-oak"]}
+          gridId="iron-and-oak"
+          color="#13739C"
+          type="Landing Page"
+          progress={progress}
+          dataText="View Live Site"
+          href={externalLinks.saasUi}
+        />
+        <AnimatedCard
+          key={"PhoneSwapZone"}
+          src={phoneSwapZone}
+          alt={"PhoneSwapZone - Preview"}
+          offset={offsets["phoneSwapZone"]}
+          gridId="phoneSwapZone"
+          color="#3B06D1"
+          type="Phone Resale Platform"
+          progress={progress}
+          href={externalLinks.phoneSwapZone}
           dataText="View Live Site"
         />
       </div>
