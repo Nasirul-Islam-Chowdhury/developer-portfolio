@@ -2,7 +2,7 @@ import { StaticImageData } from "next/image";
 import { Card } from "@/app/components/ProjectCard/Card";
 import phoneSwapZone from "@/app/images/phoneswapzone.png";
 import shineMen from "@/app/images/shinemen.png";
-import landingPage from "@/app/images/saas.png";
+import orbital_coaching from "@/app/images/orbital.png";
 import { Link } from "@/app/utils/Link";
 import { externalLinks, SITE_SLUGS } from "@/config/siteConfig";
 import travelAi from "@/app/images/travel.png";
@@ -46,13 +46,13 @@ export const STATIC_PROJECTS: StaticProject[] = [
     isExternal: true,
   },
   {
-    id: "Ai Saas Landing Page",
-    src: landingPage,
-    alt: "Vets Choice Insurance Preview",
+    id: "Orbital Coaching Center",
+    src: orbital_coaching,
+    alt: "Orbital Coaching Center Preview",
     color: "#DA961AA5",
-    type: "Saas Landing Website",
+    type: "Orbital Coaching Center Website",
     text: "View Website",
-    href: externalLinks.saasUi,
+    href: externalLinks.orbital_client,
     dataText: "View Website",
     ariaLabel: "View Saas Landing Page",
     isExternal: true,

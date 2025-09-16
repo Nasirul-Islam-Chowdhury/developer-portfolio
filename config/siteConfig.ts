@@ -59,7 +59,7 @@ export const SITE_SLUGS = {
 
 export const externalLinks = {
   shineMen: "https://men-s-skin-care.web.app",
-  saasUi: "https://koworker-landing.vercel.app/",
+  orbital_client: "https://orbital-coaching-client.vercel.app/",
   travelAI: "https://ziarah.ai",
   phoneSwapZone: "https://phoneswapzone.web.app",
 } as const;

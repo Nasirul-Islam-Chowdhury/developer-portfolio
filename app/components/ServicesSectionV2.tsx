@@ -10,13 +10,17 @@ const tech = [
   { name: "Next", src: "next" },
   { name: "TypeScript", src: "typescript" },
   { name: "Tailwind", src: "tailwind" },
-  // { name: "Python", src: "python" },
   { name: "Express", src: "express" },
   { name: "OpenAI", src: "openai" },
   { name: "MongoDB", src: "mongodb" },
   { name: "PostgreSQL", src: "postgresql" },
   { name: "Figma", src: "figma" },
   { name: "Redux Toolkit", src: "redux-toolkit" },
+  { name: "Docker", src: "docker" },
+  { name: "Aws", src: "aws" },
+  { name: "Prisma", src: "prisma" },
+  { name: "Graphql", src: "graphql" },
+  { name: "Jest", src: "jest" },
 ];
 
 const services = [
@@ -104,7 +108,7 @@ export const ServicesSectionV2: React.FC = ({
           </Text>
 
           <MotionUl
-            className="grid grid-cols-5 gap-8 max-[420px]:justify-items-center md:justify-items-center"
+            className="grid grid-cols-5 gap-8 max-[420px]:justify-items-center md:justify-items-start"
             variants={container}
             initial="hidden"
             whileInView="visible"
