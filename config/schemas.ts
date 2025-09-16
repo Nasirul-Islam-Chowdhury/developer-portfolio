@@ -32,7 +32,7 @@ const projectsData: ProjectItem[] = [
   },
   {
     name: "Zero Icon Sprite",
-    url: externalLinks.saasUi,
+    url: externalLinks.orbital_client,
     date: "2024-06-15",
     description: "SVG Build Tool",
     isExternal: true,
