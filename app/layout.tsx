@@ -26,11 +26,14 @@ export const metadata: Metadata = {
   metadataBase: new URL(DOMAIN_URL),
   title: SITE_CONFIG.title,
   description: SITE_CONFIG.description,
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
-      <body  className="relative min-w-[300px] bg-white" data-mobile-menu="closed" data-scrolled="up">
+      <body className="relative min-w-[300px] bg-white" data-mobile-menu="closed" data-scrolled="up">
         <MotionWrapper>
           <DesktopCursor />
           <ViewTransitions />
@@ -87,4 +90,4 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     </html>
   )
 }
-export default RootLayout
+export default RootLayout 

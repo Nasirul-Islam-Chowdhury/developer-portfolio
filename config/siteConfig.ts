@@ -41,7 +41,7 @@ export const SITE_NAP = {
     github: "https://github.com/Nasirul-Islam-Chowdhury",
     x: "https://x.com/Nasir143",
   } as const,
-  logo: "/logo.png",
+  logo: "/favicon.ico",
   favicon: "/favicon.ico",
 } as const;
 

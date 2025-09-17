@@ -24,11 +24,11 @@ export const TopBarV2: React.FC = () => {
               className="flex items-center gap-2 font-medium text-nowrap"
             >
               <Image
-                src={"/logo.png"}
+                src={"/profile.jpg"}
                 alt="nasir logo"
                 height={24}
                 width={24}
-                className="rounded shadow-md"
+                className="rounded-full h-7 object-cover shadow-md"
               />
               Md Nasirul Islam Chowdhury
             </Link>
