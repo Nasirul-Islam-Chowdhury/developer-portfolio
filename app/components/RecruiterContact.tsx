@@ -58,13 +58,16 @@ export const RecruiterContact: React.FC = () => {
             </WhiteButtonLink>
           </div>
 
-          {/* <div className="flex items-center gap-3 opacity-70 max-lg:justify-center  ">
-            <WhiteButtonLink href={"https://cal.com/austinserb/intro"} className="relative">
-              <Icon name="calendar" height={18} width={18} className="h-[18px] w-[18px] text-slate-700 " />
+          <div className="flex items-center gap-3  max-lg:justify-center  ">
+            <WhiteButtonLink href={"https://calendly.com/nasirchy252/coffee-chat?month=2025-09"} className="relative text-black font-semibold">
+              <Icon name="calendar" height={18} width={18} className="h-[18px] w-[18px]  " />
               Book a call
-              <CalIcon className="h-auto w-20 text-gray-900 absolute -right-24" />
             </WhiteButtonLink>
-          </div> */}
+            <WhiteButtonLink href={SITE_NAP.profiles.resume} className="relative text-black font-semibold">
+
+              Resume
+            </WhiteButtonLink>
+          </div>
         </MotionDiv>
       </div>
     </section>

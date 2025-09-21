@@ -40,6 +40,8 @@ export const SITE_NAP = {
     linkedIn: "https://www.linkedin.com/in/nasir252/",
     github: "https://github.com/Nasirul-Islam-Chowdhury",
     x: "https://x.com/Nasir143",
+    resume:
+      "https://docs.google.com/document/d/1KZt5Ai6sCwHWtRCKDbxe6UYUPgklvx8xGJlBq4ows6M/edit?usp=sharing",
   } as const,
   logo: "/favicon.ico",
   favicon: "/favicon.ico",

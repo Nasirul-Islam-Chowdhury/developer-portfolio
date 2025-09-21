@@ -1,6 +1,7 @@
 import { HeroV2 } from "../components/HeroV2"
 import { ProjectsSection } from "../components/ProjectsSection"
 import { AboutSectionV2 } from "../components/AboutSectionV2"
+import { ExperienceSectionV2 } from "../components/ExperienceSectionV2"
 import { ServicesSectionV2 } from "../components/ServicesSectionV2"
 import { RecruiterContact } from "../components/RecruiterContact"
 import { Metadata } from "next"
@@ -38,6 +39,7 @@ const PortfolioPage: React.FC = () => {
       <div className="border-b border-gray-200" />
       <ProjectsSection />
       <AboutSectionV2 />
+      <ExperienceSectionV2 />
       <ServicesSectionV2 />
       <RecruiterContact />
       {/* <FAQSection /> */}
