@@ -17,7 +17,7 @@ export const TopBarV2: React.FC = () => {
       <div className="overflow-hidden rounded-3xl border border-gray-200 bg-white/80 shadow-md backdrop-blur-md">
         <div className="relative flex flex-col">
           {/* Top Row (always visible) */}
-          <div className="flex items-center gap-4 px-4 py-3 md:gap-8 md:py-2.5">
+          <div className="flex items-center gap-10 px-4 py-3  md:gap-8 md:py-2.5">
             {/* Logo */}
             <Link
               href="/"
