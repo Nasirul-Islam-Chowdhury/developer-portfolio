@@ -30,7 +30,7 @@ export const TopBarV2: React.FC = () => {
                 width={24}
                 className="rounded-full h-7 object-cover shadow-md"
               />
-              Md Nasirul Islam Chowdhury
+              Nasir Chowdhury
             </Link>
 
             {/* Desktop Navigation */}
