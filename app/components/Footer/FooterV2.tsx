@@ -109,8 +109,9 @@ export const FooterV2: React.FC = () => {
             © 2025 Md Nasirul Islam Chowdhury
           </span>
         </div>
-        <h2 className="large-brand-text absolute -bottom-16 left-0 flex w-full items-center justify-center font-medium whitespace-nowrap text-white md:text-[180px] lg:text-[240px]">
-          Nasir Chy
+        <h2 className="large-brand-text absolute -bottom-16 left-0 flex gap-10 w-full items-center justify-center font-medium whitespace-nowrap text-white  md:text-[180px] lg:text-[240px]">
+          Nasir
+          <span className="hidden md:inline">&nbsp;Chy</span>
         </h2>
       </div>
     </footer>

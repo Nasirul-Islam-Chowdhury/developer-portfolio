@@ -26,8 +26,8 @@ export function ProjectsGrid({ className }: { className?: string }) {
 
   const { scrollYProgress } = useScroll({
     offset: isMobile
-      ? ["start start", "10% start"]
-      : ["start start", "15% start"],
+      ? ["start start", "8% start"]
+      : ["start start", "12% start"],
   });
   const stiffness = isMobile ? 120 : 220;
   const damping = isMobile ? 50 : 90;
@@ -118,10 +118,6 @@ export function ProjectsGrid({ className }: { className?: string }) {
           href={externalLinks.travelAI}
           dataText="View Live Site"
         />
-
-
-
-
 
 
         <AnimatedCard

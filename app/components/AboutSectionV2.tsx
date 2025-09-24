@@ -17,7 +17,7 @@ export const AboutSectionV2 = ({ className = "" }: { className?: string }) => {
         <AnimatedH2>
           <span className="text-slate-500">About</span>
           <br />
-          Md Nasirul Islam Chowdhury
+          Nasir Chowdhury
         </AnimatedH2>
         <div className="flex flex-col-reverse gap-12 md:flex-row md:gap-16">
           {/* ---------------- left column ---------------- */}
