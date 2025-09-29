@@ -49,8 +49,8 @@ export const HeroV2 = () => {
             delay={0.6}
             className="max-w-xs text-sm leading-snug tracking-tight text-slate-700 md:max-w-sm md:pr-4 md:text-base"
           >
-            Frontend-focused Full Stack Developer. Skilled in React & Next.js,
-            building clean, responsive, and production-ready apps.
+            Software Engineer | 2+ Years Creating clean, responsive, and production-ready, high-quality web systems
+
           </AnimatedElement>
 
           <CallToActionButton />
