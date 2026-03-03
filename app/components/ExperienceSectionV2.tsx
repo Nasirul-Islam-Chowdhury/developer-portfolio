@@ -45,7 +45,7 @@ const experiences: Experience[] = [
     {
         company: "Ziarah",
         role: "Full Stack Engineer ",
-        duration: "Oct 2024 - Jun 2025",
+        duration: "Oct 2024 - Present",
         description: "",
         achievements: [
             "Developed a hotel booking service that allowed users to efficiently search, filter, and book hotels, improving the overall booking flow",
